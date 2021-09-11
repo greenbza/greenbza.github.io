@@ -73,16 +73,19 @@ section {
     display:grid;
     grid-template-columns:1fr 1fr;
     padding:10px;
-    background-color:#aaaaaa;
     height:200px;
     font-size:1.5em;
+}
+table, th, td {
+    border:1px solid #666;
+    border-collapse:collapse;
+    padding:10px;
 }
 /* PANEL 1 STYLING */
 .panel1 {
     grid-column:1/4;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    background-color:#aaaaaa;
 }
 .panel1 h3 {
     text-align:center;
