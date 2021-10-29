@@ -92,6 +92,18 @@
   			-ms-flex: 1 1 auto;
   			flex: 1 1 auto; 
 		}
+		/* CAROUSEL STYLING */
+		.carousel .carousel-item {
+  			height: 500px;
+		}
+
+		.carousel-item img {
+    		position: absolute;
+    		object-fit:scale-down;
+    		top: 0;
+   			left: 0;
+    		height: 500px;
+		}
 	</style>
   </head>
   <body>
@@ -132,7 +144,29 @@
 			    	</div>
 			 </nav>
 		</div>
-	  	<div class="col">
+	</div>
+	  <!-- PAGE CONTENT HERE -->
+	<div class="row bg-secondary">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>
+	<div class="row align-items-center bg-secondary text-light">
+		<div class="col-10">
+			<div class="p-3 bg-dark border-dark">
+				<h3 class="title">Portfolio Website Creation</h3>
+				<hr class="bg-light">
+				<p class="lead text-left">On this temporary page, you will find the write-up that includes details about the creation of this website. This page contains the relevant project materials for the independent project I am completing as part of my Interactive Design capstone class at James Madison University. </p>
+			</div>
+		</div>
+	</div>
+	<div class="row bg-secondary">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col">
 			<!-- CUSTOM WAVE HEADER HERE -->
 			<div class="custom-shape-divider-top-1634955895">
     			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -148,19 +182,160 @@
 			<p class="invisible">Invisible Text Row to Create Space</p>
 		</div>
 	</div>
-	  <!-- PAGE CONTENT HERE -->
-	<div class="row bg-lighter">
-		<div class="col">
-			<p>This Website</p>
-		</div>
-	</div>
-	
 	<div class="row bg-lighter">
 		<div class="col">
 			<p class="invisible">Invisible Text Row to Create Space</p>
 		</div>
 	</div>
-	
+	<div class="row bg-lighter text-light">
+		<div class="col-md-10 p-3">
+			<h4 class="title">Project Resources</h4>
+			<hr class="bg-light">
+		</div>
+	</div>
+	<div class="row align-items-center bg-lighter">
+		<div class="col-12 mx-auto bg-dark">
+			<div id="projectResources" class="carousel carousel-dark slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#projectResources" data-slide-to="0" class="active"></li>
+    				<li data-target="#projectResources" data-slide-to="1"></li>
+    				<li data-target="#projectResources" data-slide-to="2"></li>
+					<li data-target="#projectResources" data-slide-to="3"></li>
+  				</ol>
+  				<div class="carousel-inner">
+					<div class="carousel-item active">
+      					<img src="images/zg-logo-2-02.png" class="d-block w-100" alt="ZG Logo">	
+    				</div>
+    				<div class="carousel-item">
+      					<img src="images/logo-sketches.jpg" class="d-block w-100" alt="Logo Sketches">	
+    				</div>
+    				<div class="carousel-item">
+      					<img src="images/page-sketches.jpg" class="d-block w-100" alt="Page Sketches">
+    				</div>
+    				<div class="carousel-item">
+      					<img src="..." class="d-block w-100" alt="Page Wireframes">
+    				</div>
+  				</div>
+  				<button class="carousel-control-prev bg-transparent border-0" type="button" data-target="#projectResources" data-slide="prev">
+    				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    				<span class="sr-only">Previous</span>
+  				</button>
+  				<button class="carousel-control-next bg-transparent border-0" type="button" data-target="#projectResources" data-slide="next">
+    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    				<span class="sr-only">Next</span>
+  				</button>
+			</div>
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>
+	<div class="row align-items-center bg-lighter text-light">
+		<div class="col-md-10">
+			<div class="p-3 bg-dark border-dark rounded">
+				<h4 class="title">Final Synopsis</h4>
+				<hr class="bg-light">
+				<p class="text-left">
+					The purpose of this website is to show off my work in UX/UI Design, Web Design, and Visual Design to future employers or anyone else interested in my work. The site itself serves as its own piece of portfolio work that shows off my capabilities in a comprehensive way, as it required all three of these skills to create. Before creating this website, I set out some objectives that the site needed to fulfill. First, it had to be built from the ground up using HTML/CSS and encapsulate my work with photos, necessary links, and descriptions. It also needed a logo that represents me as a designer and a design scheme to keep the site consistent across multiple pages. The site also needed to be easy to navigate and account for accessibility and user standards, which would require user testing. Lastly, the site also needed to be future proof so I could add projects to it at the end of the semester and in the future.<br><br>
+
+					Before I began coding the website, I needed to learn new skills to accomplish a project of this scale. I used LinkedIn Learning to learn Bootstrap, GitHub, and some information about what goes into a portfolio website. These skills were invaluable in the creation of this website, with Bootstrap providing web responsive elements and GitHub providing a testing ground to test versions of the site in different web browsers and on various devices of different sizes (the site is responsive on dekstop, tablet, and mobile).<br><br>
+
+					I also needed to make some creative decisions before the creation of the site began. I created a logo in Adobe Illustrator, with a color scheme created using <a href="https://color.adobe.com/create/color-wheel" class="link" target="_blank">Adobe Color</a>. The logo and colors are inspired by neon signs, with a wireframe look and vibrant colors. I knew from the start I wanted the pages to have a dark look by default, and I was inspired by images of neon signs at night and the sprawling dystopian city in the film <i>Blade Runner 2049.</i> I also used the website <a href="https://www.shapedivider.app" class="link" target="_blank">Shape Divider</a> to create some SVG elements for the header and footer of each page.  I then used Adobe Fonts to pick a typeface to use for the headings of the site in the form of All Round Gothic, while retaining the Bootstrap font families for other elements so that the site is easy to use. Bootstrap Icons was also integrated for the social media icons in the footer of the site. I used the knowledge I learned from the LinkedIn Learning course on what goes into a portfolio to create the navigation and researched other design portfolios to create some sketches and wireframes of the various pages the site would require. I also created a list of the various elements each portfolio item and page would require, such as text and images. All images for the site were sized in Adobe Photoshop to be optimal for web.<br><br>
+
+					After the initial design goals for the site were complete, I began to code the website using Adobe Dreamweaver and Bootstrap. Dreamweaver has Bootstrap integration built-in, so this was useful when creating the initial files for the various pages of the site. I used the LinkedIn Learning and the Bootstrap website to learn Bootstrap as I went, and this is where I ran into the first hurdles I needed to cross when coding the site. Originally, it was tough to override the Bootstrap files to create my own color variable and modify certain aspects of Bootstrap objects to fit my intended style for the site, and it took some time to solve this problem and get used to the many variables Bootstrap adds to HTML tags. Coding the site was the longest stage of the portfolio’s creation and required multiple days of work to complete. It is also important to note that the header and footer can be easily duplicated to create new pages for portfolio content and the portfolio section of the site can also be adapted to include these new projects.<br><br>
+
+					The website is complete for this independent project and is currently being hosted on <a href="https://www.netlify.com" class="link" target="_blank">Netlify</a>, which integrates with my GitHub repository for the site that contains the most recent version. Netlify allows for easy changes to be made to any of the site files and allows for a custom domain name to be integrated. Further changes will be made after feedback on SMAD day (November 5, 2021). Eventually, the intention is to condense this page into a smaller version for the portfolio area of the site.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>
+	<div class="row equal-cols bg-lighter text-light">
+		<div class="col-md-6">
+			<div class="p-3 bg-dark border-dark rounded">
+				<h4 class="title">Project Goals</h4>
+				<hr class="bg-light">
+				<ul>
+					<li>Creation of a portfolio website from the ground up that encapsulates all of my work</li>
+					<li>The portfolio should show off my work with photos, links, and descriptions</li>
+					<li>The site will require a logo and design scheme</li>
+					<li>The site is easy for users to navigate and accounts for accessibility and user standards. This will require user testing to make sure the site meets this goal.</li>
+					<li>The site is future proof so that it can be added to as I complete more projects throughout the semester (capstone &amp; user research project)</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="p-3 bg-dark border-dark rounded">
+				<h4 class="title">Skills Required</h4>
+				<hr class="bg-light">
+				<ul>
+					<li>Bootstrap to help with the website's development</li>
+                	<li>What goes into a proper portfolio website</li>
+                	<li>Advanced HTML/CSS techniques to create a unique website that also adheres to accessibility and user preferences</li>
+                	<li>How to purchase a domain name and host a personal website</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>
+	<div class="row bg-lighter text-light">
+		<div class="col-md-10 p-3">
+			<h4 class="title">Audience Personas</h4>
+			<hr class="bg-light">
+			<p class="text-left">
+				Here's the basic personas I created for the intended audience of my portfolio site.
+			</p>
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>	
+	<div class="row bg-lighter text-light">
+		<div class="col-md-10 p-3">
+			<h4 class="title">Initial Visual Inspiration</h4>
+			<hr class="bg-light">
+			<p class="text-left">
+				Here's an early concept of the logo and a single-page portfolio site I had created initially before this site that served as inspiration for the final product you see here.
+			</p>
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col-md-3 bg-lighter p-3 text-md-left text-center">
+			<img src="images/zg-logo-concept.png" class="img-fluid border-dark rounded" width="300" height="300" alt="Logo Concept">
+		</div>
+		<div class="col-md-6 bg-lighter p-3 text-md-left text-center">
+			<img src="images/portfolio-prototype.png" class="img-fluid border-dark rounded" alt="Single Page Portfolio">
+		</div>
+	</div>
+	<div class="row bg-lighter">
+		<div class="col">
+			<p class="invisible">Invisible Text Row to Create Space</p>
+		</div>
+	</div>
+	<div class="row bg-lighter text-light">
+		<div class="col-md-10 p-3">
+			<h4 class="title">Additional Resources</h4>
+			<hr class="bg-light">
+			<p class="text-left">
+				Here's a link to the GitHub Pages repository where this site was tested:<br>
+				<a href="https://github.com/greenbza/greenbza.github.io" class="link" target="_blank">GitHub Pages Portfolio Repository</a><br><br>
+				Here's a link to the GitHub repository where you can view the files of the original project proposal:<br>
+				<a href="https://github.com/greenbza/project-proposal" class="link" target="_blank">GitHub Independent Project Proposal Repository</a>
+			</p>
+		</div>
+	</div>
 	<div class="row bg-lighter">
 		<div class="col">
 			<p class="invisible">Invisible Text Row to Create Space</p>
